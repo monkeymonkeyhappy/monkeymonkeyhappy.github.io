@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MonkeyMonkeyHappy</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #ffffff;
+      font-family: "Comic Sans MS", sans-serif;
+    }
+
+    .header {
+      display: flex;
+      align-items: flex-start;
+      background-color: #2cd443;
+      padding: 15px 16px;
+      height: 55px;
+    }
+
+    .headerobj {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .headerimage {
+      height: 20px;
+      width: 20px;
+    }
+
+    .headertxt {
+      margin: 0;
+    }
+
+    .aboutbtn {
+      margin-left: auto;
+      padding: 3px 9px;
+      cursor: pointer;
+      background-color: #9198fa;
+      border: solid black 1px;
+      border-radius: 5px;
+      font-family: Comic Sans MS;
+      transition: 0.1s;
+    }
+    
+    .aboutbtn:hover {
+      scale: 102.5%;
+    }
+    
+    .aboutbtn:active {
+      scale: 105%;
+    }
+
+    .wlcmtxt {
+      text-align: center;
+      padding-top: 20px;
+    }
+    
+    .gameimagerow {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .gameitem {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 25%; /* same as old image width */
+    }
+
+    .gameitem img {
+      width: 100%;
+      height: 140px;
+      border-radius: 15px;
+    }
+
+    .gameitem h4 {
+      margin-top: 8px;
+      text-align: center;
+      font-family: Comic Sans MS;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="headerobj">
+        <img class="headerimage" src="https://github.com/monkeymonkeyhappy/monkeymonkeyhappy.github.io/blob/main/monkeymonkeyhappy.png?raw=true" alt="logo">
+        <h4 class="headertxt">MonkeyMonkeyHappy</h4>
+      </div>
+      <button class="aboutbtn" onclick="location.href='about.html'">About</button>
+    </div>
+    <h3 class="wlcmtxt">Welcome to MonkeyMonkeyHappy!</h3>
+    <h1 class="wlcmtxt">Games:</h1>
+    <br>
+    <div class="gameimagerow">
+      <div class="gameitem">
+        <img src="https://github.com/monkeymonkeyhappy/monkeymonkeyhappy.github.io/blob/main/images/allscience.png?raw=true" alt="Completely Science">
+        <h4>Completely Science</h4>
+      </div>
+      <div class="gameitem">
+        <img src="https://github.com/monkeymonkeyhappy/monkeymonkeyhappy.github.io/blob/main/images/sfc.png?raw=true" alt="SchoolFlashCards">
+        <h4>SchoolFlashCards</h4>
+      </div>
+      <div class="gameitem">
+        <img src="https://github.com/monkeymonkeyhappy/monkeymonkeyhappy.github.io/blob/main/images/classroomgames.png?raw=true" alt="Classroom Games">
+        <h4>Classroom Games</h4>
+      </div>
+    </div>
+    <div class="gameimagerow">
+      <div class="gameitem">
+        <img src="https://github.com/monkeymonkeyhappy/monkeymonkeyhappy.github.io/blob/main/images/coolmathgames.png?raw=true" alt="Coolmath Games">
+        <h4>Completely Science</h4>
+      </div>
+      <div class="gameitem">
+        <img src="https://github.com/monkeymonkeyhappy/monkeymonkeyhappy.github.io/blob/main/images/freeze.png?raw=true" alt="SchoolFlashCards">
+        <h4>Freezenova</h4>
+      </div>
+      <div class="gameitem">
+        <img src="https://github.com/monkeymonkeyhappy/monkeymonkeyhappy.github.io/blob/main/images/hooda.png?raw=true" alt="Classroom Games">
+        <h4>Hoodamath</h4>
+      </div>
+    </div>
+  </header>
+</body>
+</html>
